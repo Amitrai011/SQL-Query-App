@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# SQL Query App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+The project is a SQL query application that enables users to interact with CSV files. It offers a default CSV file and the option for users to upload their own CSV files for querying. 
 
-## Available Scripts
+Users can perform various queries, including finding values for each column. Additionally, a default query option is available in a dropdown menu, allowing users to select queries and view results. The application provides statistical insights like mean, mode, median, standard deviation, minimum, maximum, and count for the data. Users can also visualize the data through bar charts. 
 
-In the project directory, you can run:
+Moreover, the application supports importing external APIs, enabling users to query and work with data from external sources.
 
-### `npm start`
+## Framework and Packages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is built using React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+PapaParse is used for CSV file parsing.
 
-### `npm test`
+PapaParse GitHub - https://github.com/mholt/PapaParse
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Chart.js library is used for Data Visualization.
 
-### `npm run build`
+Chart.js GitHub - https://github.com/chartjs/Chart.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Page Load Time
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The page's full load time is 468ms, and this metric is calculated using gtmetrix.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GTmetrix: https://gtmetrix.com
 
-### `npm run eject`
+## Screenshot of GTmetrix
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 2023-07-30 at 2 52 55 AM](https://github.com/Amitrai011/sql-query-app/assets/42946110/d98b11b6-1259-49a7-88dd-a1ffbf7ac1e0)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshot of PageSpeed Insights
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2023-07-30 at 2 52 22 AM](https://github.com/Amitrai011/sql-query-app/assets/42946110/9981fd9f-e829-43e2-8ff1-01e53d6c594e)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Optimization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For page optimization, I have utilized best practices such as Component-based architecture, Proper error handling, etc.
