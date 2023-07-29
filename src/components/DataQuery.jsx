@@ -98,7 +98,7 @@ function DataQuery({ csvData, setCsvData }) {
             />
             <div className={styles.editArea}>
                 <div>
-                    <h3 className={styles.queryLabel}>Please write your SQL Statement here</h3>
+                    <h3 className={styles.queryLabel}>Please enter your SQL query below</h3>
                     {csvData.length > 0 &&
                         <textarea
                             id={styles.textarea}

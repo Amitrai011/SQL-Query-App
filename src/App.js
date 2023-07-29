@@ -12,10 +12,3 @@ function App() {
 }
 
 export default App;
-
-// Featues:
-// 1. Responsiveness
-// 2. Give the button of live demo video
-
-// Send
-// 1. Send one video also

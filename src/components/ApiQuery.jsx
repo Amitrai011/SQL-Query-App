@@ -4,7 +4,7 @@ import globalStyles from "../styles/global.module.css";
 
 function ApiQuery({ setCsvData, setExportClick, setTableName }) {
 
-    const [api, setApi] = useState("");
+    const [api, setApi] = useState(process.env.REACT_APP_DEFAULT_API);
     const [error, setError] = useState("");
 
     const modalStyle = {
@@ -48,7 +48,7 @@ function ApiQuery({ setCsvData, setExportClick, setTableName }) {
             <div style={modalStyle} className={styles.modal}>
                 <img loading="lazy" className={styles.closeButton} width="30px" onClick={() => setExportClick(false)} src="./assests/close.png" />
                 <p style={{ marginTop: "0.6rem" }}>Enter the endpoint</p>
-                <input onChange={(event) => setApi(event.target.value)} style={inputStyle} type="text" placeholder="Enter your API" />
+                <input value={api} onChange={(event) => setApi(event.target.value)} style={inputStyle} type="text" placeholder="Enter API or Endpoint URL" />
                 {error.length > 0 && <p style={{ color: "red" }}>{error}</p>}
                 <button onClick={handleSubmit} style={{ margin: "0.7rem 0", padding: "0.6rem 1.5rem" }} className={globalStyles.primaryBtn}>Submit</button>
             </div>
