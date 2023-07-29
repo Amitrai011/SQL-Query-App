@@ -46,7 +46,7 @@ function ApiQuery({ setCsvData, setExportClick, setTableName }) {
     return (
         <div className={styles.modalOverlay}>
             <div style={modalStyle} className={styles.modal}>
-                <img loading="lazy" className={styles.closeButton} width="30px" onClick={() => setExportClick(false)} src="./assests/close.png" />
+                <img loading="lazy" className={styles.closeButton} width="30px" height="30px" onClick={() => setExportClick(false)} src="./assests/close.png" alt="Close Image" />
                 <p style={{ marginTop: "0.6rem" }}>Enter the endpoint</p>
                 <input value={api} onChange={(event) => setApi(event.target.value)} style={inputStyle} type="text" placeholder="Enter API or Endpoint URL" />
                 {error.length > 0 && <p style={{ color: "red" }}>{error}</p>}

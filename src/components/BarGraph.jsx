@@ -37,9 +37,11 @@ function BarGraph({ csvData, setVisualizeData }) {
                     className={styles.closeButton}
                     style={{ cursor: "pointer" }}
                     width="30px"
+                    height="30px"
                     src="../assests/close.png"
                     loading="lazy"
                     onClick={() => setVisualizeData(false)}
+                    alt="Close Icon"
                 />
                 <div className={styles.topBar}>
                     <select className={dropDownStyles.selectOptions} value={selectedOption} onChange={handleOptionChange}>

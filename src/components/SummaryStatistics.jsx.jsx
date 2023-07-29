@@ -46,9 +46,11 @@ const SummaryStatistics = ({ data, setShowStatistics }) => {
                     className={styles.closeButton}
                     style={{ cursor: "pointer" }}
                     width="30px"
+                    height="30px"
                     src="../assests/close.png"
                     loading="lazy"
                     onClick={() => setShowStatistics(false)}
+                    alt="Close Icon"
                 />
                 {Object.keys(statistics).map((column) => (
                     <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }} key={column}>

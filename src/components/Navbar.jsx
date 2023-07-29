@@ -6,12 +6,12 @@ function Navbar({ setShowStatistics, setExportClick, setVisualizeData, handlFile
     return (
         <nav className={styles.navbar}>
             <div className={styles.leftNavView}>
-                <img width="35px" src="./assests/database.png" />
+                <img width="35px" height="35px" src="./assests/database.png" alt="Database Image" />
                 <p style={{ fontSize: "1.5rem" }}>SQL Query</p>
             </div>
             <div className={styles.btnWrapper}>
                 <label className={styles.fileStyle} htmlFor="file">
-                    <img loading="lazy" style={{ marginRight: "0.4rem" }} width="25px" src="./assests/file.png" />
+                    <img loading="lazy" style={{ marginRight: "0.4rem" }} width="25px" height="30px" src="./assests/file.png" alt="file Image" />
                     Upload a CSV file
                 </label>
                 <input style={{ display: "none" }} id="file" type="file" accept=".csv" onChange={handlFileChange} />
