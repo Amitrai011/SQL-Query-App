@@ -1,0 +1,15 @@
+.primaryBtn {
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 14px;
+  background: #f8f9fa;
+  border: 1px solid #537fe7;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primaryBtn:hover {
+  background-color: #537fe7;
+  color: white;
+}

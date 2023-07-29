@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #537fe7;
+  color: white;
+}
+
+.leftNavView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-right: 1rem;
+}
+
+.btnWrapper button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.btnWrapper button:hover {
+  background-color: white;
+  color: black;
+}
+
+.fileStyle {
+  padding: 0.6rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 0.4rem;
+  border: 1px solid #537fe7;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}

@@ -1,0 +1,11 @@
+.selectOptions {
+  border: 1px solid #537fe7;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.selectOptions:focus {
+  border: none;
+  outline: none;
+}
