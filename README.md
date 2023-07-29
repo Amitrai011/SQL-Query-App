@@ -34,6 +34,7 @@ GTmetrix: https://gtmetrix.com
 ![Screenshot 2023-07-30 at 2 52 22 AM](https://github.com/Amitrai011/sql-query-app/assets/42946110/9981fd9f-e829-43e2-8ff1-01e53d6c594e)
 
 
+
 ## Optimization
 
 For page optimization, I have utilized best practices such as Component-based architecture, Proper error handling, etc.
